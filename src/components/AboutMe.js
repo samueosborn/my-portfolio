@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
@@ -50,7 +50,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h5>A Fullstack Web Developer focused on building responsive fullstack web applications while learning & exploring other technologies.</h5>
+            {/* <h5>A Fullstack Web Developer focused on building responsive fullstack web applications while learning & exploring other technologies.</h5> */}
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
