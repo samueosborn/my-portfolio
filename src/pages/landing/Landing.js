@@ -26,7 +26,7 @@ const Landing = ({ name, tagline }) => {
       flexDirection: "column",
       letterSpacing: "1px",
       textAlign: "center",
-      alignItems: center,
+      alignItems: "center",
       zIndex: "1",
       color: "#fff",
       textShadow: "1px 1px 3px #000",
