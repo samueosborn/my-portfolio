@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import landingImage from "../../images/me.svg";
+import landingProfile from "../../images/osborn headshot-2.jpg";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name, tagline }) => {
@@ -45,6 +46,7 @@ const Landing = ({ name, tagline }) => {
 
   return (
     <section className="landing" style={styles.landing}>
+      <img className="image" src={landingProfile} alt="Avatar"></img>
       <div className="textContainer" style={styles.textContainer}>
         <motion.h1
           className="name"
