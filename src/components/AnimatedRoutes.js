@@ -10,7 +10,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline}  briefIntro={personalDetails.briefIntro} />} />
       <Route
         path="/about"
         element={
@@ -20,6 +20,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
             email={personalDetails.email}
             availability={personalDetails.availability}
             brand={personalDetails.brand}
+            briefIntro={personalDetails.briefIntro}
           />
         }
       />
