@@ -48,3 +48,31 @@
       margin-bottom: 100px;
   }
 }
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 432px) {
+  .landing .name {
+    font-size: 32px;
+  }
+
+  .landing .description {
+    font-size: 28px;
+  }
+
+  .landingImage {
+    bottom: 0;
+    right: 80px;
+  }
+
+  .landing .socialIcons {
+    flex-direction: column;
+  }
+
+  .landing .image{
+      border-radius: 50%;
+      width:200px;
+      margin-bottom: 100px;
+  }
+}
+

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import landingImage from "../../images/me.svg";
+//import landingImage from "../../images/me.svg";
 import landingProfile from "../../images/osbornheadshot-2.png";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -70,7 +70,7 @@ const Landing = ({ name, tagline }) => {
         </motion.p>
       </div>
       <div className="image-container">
-        <motion.img
+        {/* <motion.img
           className="landingImage"
           ref={ref}
           initial={{ y: "10vw", opacity: 0 }}
@@ -79,7 +79,7 @@ const Landing = ({ name, tagline }) => {
           style={styles.landingImage}
           src={landingImage}
           alt=""
-        />
+        /> */}
       </div>
 
       <SocialIcons />
