@@ -27,7 +27,7 @@ This portfolio application was built using React and is designed to showcase my 
       <a href="https://github.com/mdyeates/my-portfolio"><strong>Explore the docs »</strong></a>
       <br/>
       <br/>
-      <a href="https://michaelyeates.co.uk">View Live Website</a>
+      <a href="hikwame.me">View Live Website</a>
       ·
       <a href="https://github.com/mdyeates/my-portfolio/issues">Report Bug</a>
       ·
