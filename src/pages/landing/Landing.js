@@ -26,6 +26,7 @@ const Landing = ({ name, tagline }) => {
       flexDirection: "column",
       letterSpacing: "1px",
       textAlign: "center",
+      alignItems: center,
       zIndex: "1",
       color: "#fff",
       textShadow: "1px 1px 3px #000",
@@ -35,7 +36,6 @@ const Landing = ({ name, tagline }) => {
       color: "#fff",
       fontWeight: "700",
       marginTop: "-100px",
-      paddingBottom: "28px",
     },
   };
 
