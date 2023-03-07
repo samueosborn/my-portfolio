@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 //import landingImage from "../../images/me.svg";
 import landingProfile from "../../images/osbornheadshot-2.png";
 import SocialIcons from "../../components/SocialIcons";
-import NavLinks from "../../components/NavLinks";
+
 
 const Landing = ({ name, tagline, briefIntro }) => {
   const styles = {
@@ -77,7 +77,6 @@ const Landing = ({ name, tagline, briefIntro }) => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           {briefIntro}
-          <NavLinks />
         </motion.p>
       </div>
       <div className="image-container">
