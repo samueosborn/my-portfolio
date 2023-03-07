@@ -5,7 +5,7 @@ function App() {
   const personalDetails = {
     name: "Samuel Osborn Kwame Adamtey",
     location: "Accra, Ghana",
-    tagline: "I'm a FullStack Web Developer",
+    tagline: "FullStack Web Developer",
     email: "Ossytravels@gmail.com",
     availability: "Open for work",
     briefIntro:
