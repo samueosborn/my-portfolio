@@ -50,7 +50,6 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>LET'S BUILD SOMETHING TOGETHER</h4>
             <h5>A Fullstack Web Developer focused on building responsive fullstack web applications while learning & exploring other technologies.</h5>
             <div className="contentDescription">
               <p>{brand}</p>

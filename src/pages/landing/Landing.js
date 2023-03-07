@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import landingProfile from "../../images/osbornheadshot-2.png";
 import SocialIcons from "../../components/SocialIcons";
 
-const Landing = ({ name, tagline }) => {
+const Landing = ({ name, tagline, briefIntro }) => {
   const styles = {
     landing: {
       height: "calc(100% - 93px)",
@@ -67,6 +67,15 @@ const Landing = ({ name, tagline }) => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           {tagline}
+        </motion.p>
+        <motion.p
+          className="contentDescription"
+          ref={ref}
+          initial={{ y: "10vw", opacity: 0 }}
+          animate={inView ? { y: 0, opacity: 1 } : { y: "10vw", opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+        >
+          {briefIntro}
         </motion.p>
       </div>
       <div className="image-container">
